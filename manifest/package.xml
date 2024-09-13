@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!-- Apex Classes -->
+    <types>
+        <members>*</members>
+        <name>ApexClass</name>
+    </types>
+    
+    <!-- Apex Components -->
+    <types>
+        <members>*</members>
+        <name>ApexComponent</name>
+    </types>
+    
+    <!-- Apex Pages -->
+    <types>
+        <members>*</members>
+        <name>ApexPage</name>
+    </types>
+    
+    <!-- Apex Test Suites -->
+    <types>
+        <members>*</members>
+        <name>ApexTestSuite</name>
+    </types>
+    
+    <!-- Apex Triggers -->
+    <types>
+        <members>*</members>
+        <name>ApexTrigger</name>
+    </types>
+    
+    <!-- Aura Definition Bundles -->
+    <types>
+        <members>*</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    
+    <!-- Lightning Component Bundles -->
+    <types>
+        <members>*</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    
+    <!-- Static Resources -->
+    <types>
+        <members>*</members>
+        <name>StaticResource</name>
+    </types>
+    
+    <!-- Custom Objects -->
+    <types>
+        <members>Event__c</members>
+        <members>Attendee__c</members>
+        <members>Registration__c</members>
+        <name>CustomObject</name>
+    </types>
+    
+    <!-- Validation Rules -->
+    <types>
+        <members>Event.Ensure_Future_Date</members>
+        <members>Event.Validate_Max_Attendees</members>
+        <name>ValidationRule</name>
+    </types>
+    
+    <!-- Custom Fields -->
+    <types>
+        <members>Event.Available_Seats__c</members>
+        <members>Registration.Registration_ID__c</members>
+        <name>CustomField</name>
+    </types>
+    
+    <!-- Page Layouts -->
+    <types>
+        <members>Event-In_Person_Layout</members>
+        <members>Event-Virtual_Layout</members>
+        <members>Attendee-Layout</members>
+        <members>Registration-Layout</members>
+        <name>Layout</name>
+    </types>
+    
+    <!-- Profiles and Permission Sets -->
+    <types>
+        <members>Your_Profile_Name</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Your_Permission_Set_Name</members>
+        <name>PermissionSet</name>
+    </types>
+    
+    <!-- Reports and Dashboards -->
+    <types>
+        <members>Upcoming_Events_Report</members>
+        <members>Attendees_Per_Event_Report</members>
+        <members>Event_Registration_Dashboard</members>
+        <name>Report</name>
+    </types>
+    <types>
+        <members>Event_Registration_Dashboard</members>
+        <name>Dashboard</name>
+    </types>
+    
+    <!-- Flows and Process Builders -->
+    <types>
+        <members>Registration_Confirmation_Flow</members>
+        <members>Auto_Complete_Event_Flow</members>
+        <name>Flow</name>
+    </types>
+    
+    <version>61.0</version>
+</Package>
